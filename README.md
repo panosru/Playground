@@ -1,3 +1,1 @@
-# JustDemo
-
 A personal playground
