@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7aed7897-e5d4-4f1e-a50d-8a4f654b7c97" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/MyLibrary/IPayload.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyLibrary/IEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyLibrary/ICommand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Root/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyLibrary/Event/IHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyLibrary/Event/Handler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyLibrary/Event/Base.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyLibrary/Command/IHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyLibrary/Command/Handler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyLibrary/Command/Base.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyApp/Payloads/Foo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyApp/Events/Fooed.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyApp/Commands/Foo.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/MyApp/Class1.cs" />
+        <option value="$PROJECT_DIR$/MyLibrary/Class1.cs" />
+        <option value="$PROJECT_DIR$/MyLibrary/IPayload.cs" />
+        <option value="$PROJECT_DIR$/MyLibrary/IEvent.cs" />
+        <option value="$PROJECT_DIR$/MyLibrary/ICommand.cs" />
+        <option value="$PROJECT_DIR$/MyLibrary/Event/IHandler.cs" />
+        <option value="$PROJECT_DIR$/MyLibrary/Event/Handler.cs" />
+        <option value="$PROJECT_DIR$/MyLibrary/Event/Base.cs" />
+        <option value="$PROJECT_DIR$/MyLibrary/Command/IHandler.cs" />
+        <option value="$PROJECT_DIR$/MyLibrary/Command/Handler.cs" />
+        <option value="$PROJECT_DIR$/MyLibrary/Command/Base.cs" />
+        <option value="$PROJECT_DIR$/MyApp/Commands/Foo.cs" />
+        <option value="$PROJECT_DIR$/Root/Program.cs" />
+        <option value="$PROJECT_DIR$/MyApp/Events/Fooed.cs" />
+        <option value="$PROJECT_DIR$/MyApp/Payloads/Foo.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1fYJXWNbPClzQ4kJnC9twbU7ohW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="/usr/local/lib/node_modules/npm" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+  </component>
+  <component name="RunManager" selected=".NET Project.Root">
+    <configuration name="DemoExample" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/DemoExample/DemoExample.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Root" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Root/Root.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v3.1" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue=".NET Project.Root" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7aed7897-e5d4-4f1e-a50d-8a4f654b7c97" name="Default Changelist" comment="" />
+      <created>1596389132094</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596389132094</updated>
+      <workItem from="1596389141283" duration="758000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="3778" height="636" key="GridCell.Tab.0.bottom" timestamp="1596389900946">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state width="3778" height="636" key="GridCell.Tab.0.bottom/-1440.-171.1440.2560/3840.0.2560.1080/3840.1080.2560.1080/0.0.3840.2160/6400.0.3840.2160@0.0.3840.2160" timestamp="1596389900946" />
+    <state width="3778" height="636" key="GridCell.Tab.0.center" timestamp="1596389900943">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state width="3778" height="636" key="GridCell.Tab.0.center/-1440.-171.1440.2560/3840.0.2560.1080/3840.1080.2560.1080/0.0.3840.2160/6400.0.3840.2160@0.0.3840.2160" timestamp="1596389900943" />
+    <state width="3778" height="636" key="GridCell.Tab.0.left" timestamp="1596389900942">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state width="3778" height="636" key="GridCell.Tab.0.left/-1440.-171.1440.2560/3840.0.2560.1080/3840.1080.2560.1080/0.0.3840.2160/6400.0.3840.2160@0.0.3840.2160" timestamp="1596389900942" />
+    <state width="3778" height="636" key="GridCell.Tab.0.right" timestamp="1596389900945">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state width="3778" height="636" key="GridCell.Tab.0.right/-1440.-171.1440.2560/3840.0.2560.1080/3840.1080.2560.1080/0.0.3840.2160/6400.0.3840.2160@0.0.3840.2160" timestamp="1596389900945" />
+    <state x="1320" y="694" key="Rider.ProjectTemplateDialog.Size" timestamp="1596389222531">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state x="1320" y="694" key="Rider.ProjectTemplateDialog.Size/-1440.-171.1440.2560/3840.0.2560.1080/3840.1080.2560.1080/0.0.3840.2160/6400.0.3840.2160@0.0.3840.2160" timestamp="1596389222531" />
+    <state x="1476" y="724" width="888" height="712" key="find.popup" timestamp="1596389145474">
+      <screen x="0" y="23" width="3840" height="2137" />
+    </state>
+    <state x="1476" y="724" width="888" height="712" key="find.popup/-1440.-148.1440.2537/3840.23.2560.1057/3840.1103.2560.1057/0.23.3840.2137/6400.23.3840.2137@0.23.3840.2137" timestamp="1596389145474" />
+    <state x="1476" y="724" width="888" height="712" key="find.popup/-1440.-171.1440.2560/3840.0.2560.1080/3840.1080.2560.1080/0.0.3840.2160/6400.0.3840.2160@0.0.3840.2160" timestamp="1596389143191" />
+  </component>
+</project>

@@ -1,0 +1,17 @@
+{
+    "name": "todo/domain",
+    "description": "Domain layer for Todo Application",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Panagiotis",
+            "email": "400362+panosru@users.noreply.github.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MyApp\\": "MyApp",
+            "MyLibrary\\": "MyLibrary"
+        }
+    }
+}
