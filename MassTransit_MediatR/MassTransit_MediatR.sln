@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassTransitApi", "MassTransitApi\MassTransitApi.csproj", "{9DA872BF-2AE3-44B9-85B8-B6BEFE1D0375}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatrApi", "MediatrApi\MediatrApi.csproj", "{3ABF804A-10C5-43D2-941B-856E821A7DB5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9DA872BF-2AE3-44B9-85B8-B6BEFE1D0375}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DA872BF-2AE3-44B9-85B8-B6BEFE1D0375}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DA872BF-2AE3-44B9-85B8-B6BEFE1D0375}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DA872BF-2AE3-44B9-85B8-B6BEFE1D0375}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ABF804A-10C5-43D2-941B-856E821A7DB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ABF804A-10C5-43D2-941B-856E821A7DB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ABF804A-10C5-43D2-941B-856E821A7DB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ABF804A-10C5-43D2-941B-856E821A7DB5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/.idea.MassTransit_MediatR/.idea/.idea.MassTransit_MediatR.iml" filepath="$PROJECT_DIR$/.idea/.idea.MassTransit_MediatR/.idea/.idea.MassTransit_MediatR.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/.idea.MassTransit_MediatR/riderModule.iml" filepath="$PROJECT_DIR$/.idea/.idea.MassTransit_MediatR/riderModule.iml" />
+    </modules>
+  </component>
+</project>
