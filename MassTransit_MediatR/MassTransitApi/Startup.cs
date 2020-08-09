@@ -30,16 +30,6 @@ namespace MassTransitApi
                 mediator.AddConsumers(Assembly.GetExecutingAssembly());
             });
 
-            services.AddMassTransit(transit =>
-            {
-                transit.UsingInMemory((context, cfg) =>
-                {
-                    cfg.TransportConcurrencyLimit = 100;
-                    
-                    cfg.ConfigureEndpoints(context);
-                });
-            });
-
             services.AddOpenApiDocument(config => config.PostProcess = d => d.Info.Title = "Sample API");
 
             services.AddControllers();

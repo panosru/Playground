@@ -27,20 +27,13 @@ namespace MassTransitApi.Commands
     public class UserConsumer :
         IConsumer<CreateUser>
     {
-        private readonly IPublishEndpoint _endpoint;
-
-        public UserConsumer(IPublishEndpoint endpoint)
-        {
-            _endpoint = endpoint;
-        }
-
         public async Task Consume(ConsumeContext<CreateUser> context)
         {
             Console.WriteLine("Consuming CreateUser command");
 
             await context.RespondAsync<UserCreated>(context.Message);
             
-            await _endpoint.Publish<UserCreated>(context.Message);
+            await context.Publish<UserCreated>(context.Message);
         }
     }
 

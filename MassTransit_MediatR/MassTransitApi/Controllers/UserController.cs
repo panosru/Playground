@@ -11,13 +11,11 @@ namespace MassTransitApi.Controllers
     [Route("[controller]")]
     public class UserController
     {
-        private readonly IPublishEndpoint _endpoint;
         private readonly IRequestClient<CreateUser> _requestClient;
 
-        public UserController(IRequestClient<CreateUser> requestClient, IPublishEndpoint endpoint)
+        public UserController(IRequestClient<CreateUser> requestClient)
         {
             _requestClient = requestClient;
-            _endpoint = endpoint;
         }
 
         [HttpPost]

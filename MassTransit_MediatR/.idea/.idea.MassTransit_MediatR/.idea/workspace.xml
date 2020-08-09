@@ -21,7 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="442f38e8-6179-40c7-bcc6-47ff213b7970" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MassTransit_MediatR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MassTransit_MediatR/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MassTransitApi/MassTransitApi.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MassTransitApi/MassTransitApi.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MassTransitApi/Commands/CreateUser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MassTransitApi/Commands/CreateUser.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MassTransitApi/Controllers/UserController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MassTransitApi/Controllers/UserController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MassTransitApi/Processors/UserProcessor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MassTransitApi/Processors/UserProcessor.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MassTransitApi/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MassTransitApi/Startup.cs" afterDir="false" />
     </list>
@@ -37,18 +38,19 @@
     <option name="projectConfigVersion" value="2" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/MassTransitApi/Commands/CreateUser.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MassTransitApi/Events/UserCreated.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MediatrApi/Processors/UserProcessor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MassTransitApi/Processors/UserProcessor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MediatrApi/Controllers/UserController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MassTransitApi/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MediatrApi/Dtos/User.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MediatrApi/Commands/CreateUser.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MassTransitApi/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MediatrApi/Events/UserCreated.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MassTransitApi/Commands/CreateUser.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MassTransitApi/Controllers/UserController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MassTransitApi/Events/UserCreated.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MassTransitApi/Dtos/User.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MediatrApi/Processors/UserProcessor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3B2AEDA7-E388-4387-97A9-EBBCC8D12C79/62/InMemoryConfigurationExtensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MassTransitApi/Processors/UserProcessor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MediatrApi/Controllers/UserController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MediatrApi/Dtos/User.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -57,11 +59,11 @@
         <option value="$PROJECT_DIR$/MediatrApi/Processors/UserProcessor.cs" />
         <option value="$PROJECT_DIR$/MediatrApi/Controllers/UserController.cs" />
         <option value="$PROJECT_DIR$/MassTransitApi/Dtos/User.cs" />
-        <option value="$PROJECT_DIR$/MassTransitApi/Controllers/UserController.cs" />
         <option value="$PROJECT_DIR$/MassTransitApi/Events/UserCreated.cs" />
+        <option value="$PROJECT_DIR$/MassTransitApi/Controllers/UserController.cs" />
         <option value="$PROJECT_DIR$/MassTransitApi/Commands/CreateUser.cs" />
-        <option value="$PROJECT_DIR$/MassTransitApi/Processors/UserProcessor.cs" />
         <option value="$PROJECT_DIR$/MassTransitApi/Startup.cs" />
+        <option value="$PROJECT_DIR$/MassTransitApi/Processors/UserProcessor.cs" />
       </list>
     </option>
   </component>
@@ -123,7 +125,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1596910082331</updated>
-      <workItem from="1596910090723" duration="16575000" />
+      <workItem from="1596910090723" duration="17564000" />
     </task>
     <servers />
   </component>
@@ -237,28 +239,9 @@
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
     <state x="1464" y="636" key="RiderGenerateDialog/-1440.-171.1440.2560/3840.0.2560.1080/3840.1080.2560.1080/0.0.3840.2160/6400.0.3840.2160@0.0.3840.2160" timestamp="1596979892596" />
-    <state x="1472" y="724" width="896" height="712" key="find.popup" timestamp="1596923857304">
+    <state x="1472" y="724" width="896" height="712" key="find.popup" timestamp="1596993832078">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
-    <state x="1472" y="724" width="896" height="712" key="find.popup/-1440.-171.1440.2560/3840.0.2560.1080/3840.1080.2560.1080/0.0.3840.2160/6400.0.3840.2160@0.0.3840.2160" timestamp="1596923857304" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/MassTransitApi/Events/UserCreated.cs</url>
-          <line>23</line>
-          <properties documentPath="$PROJECT_DIR$/MassTransitApi/Events/UserCreated.cs" initialLine="21">
-            <startOffsets>
-              <option value="596" />
-            </startOffsets>
-            <endOffsets>
-              <option value="622" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="1472" y="724" width="896" height="712" key="find.popup/-1440.-171.1440.2560/3840.0.2560.1080/3840.1080.2560.1080/0.0.3840.2160/6400.0.3840.2160@0.0.3840.2160" timestamp="1596993832078" />
   </component>
 </project>

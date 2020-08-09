@@ -33,14 +33,14 @@ namespace MassTransitApi.Processors
             
             return Task.CompletedTask;
         }
-
+    
         public Task PostConsume(ConsumeContext<UserConsumer> context)
         {
             Console.WriteLine("PostConsume");
             
             return Task.CompletedTask;
         }
-
+    
         public Task ConsumeFault(ConsumeContext<UserConsumer> context, Exception exception)
         {
             Console.WriteLine("ConsumeFault");
@@ -56,12 +56,12 @@ namespace MassTransitApi.Processors
         {
             Console.WriteLine("On Completed");
         }
-
+    
         public void OnError(Exception error)
         {
             Console.WriteLine("On Error");
         }
-
+    
         public void OnNext(ConsumeContext<UserConsumer> value)
         {
             Console.WriteLine("On Next");
