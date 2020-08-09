@@ -25,23 +25,23 @@ namespace MassTransitApi.Processors
     }
 
     public class UserCreationObserver :
-        IConsumeMessageObserver<CreateUser>
+        IConsumeMessageObserver<UserConsumer>
     {
-        public Task PreConsume(ConsumeContext<CreateUser> context)
+        public Task PreConsume(ConsumeContext<UserConsumer> context)
         {
             Console.WriteLine("PreConsume");
             
             return Task.CompletedTask;
         }
 
-        public Task PostConsume(ConsumeContext<CreateUser> context)
+        public Task PostConsume(ConsumeContext<UserConsumer> context)
         {
             Console.WriteLine("PostConsume");
             
             return Task.CompletedTask;
         }
 
-        public Task ConsumeFault(ConsumeContext<CreateUser> context, Exception exception)
+        public Task ConsumeFault(ConsumeContext<UserConsumer> context, Exception exception)
         {
             Console.WriteLine("ConsumeFault");
             

@@ -27,10 +27,6 @@ namespace MassTransitApi
             
             services.AddMediator(mediator =>
             {
-                mediator.ConfigureMediator((context, config) =>
-                {
-                });
-                
                 mediator.AddRequestClient<CreateUser>();
                 mediator.AddRequestClient<UserCreated>();
                 
