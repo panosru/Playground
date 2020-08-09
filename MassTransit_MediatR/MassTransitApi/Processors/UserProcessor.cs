@@ -48,4 +48,23 @@ namespace MassTransitApi.Processors
             return Task.CompletedTask;
         }
     }
+
+    public class UserOvserver :
+        IObserver<ConsumeContext<UserConsumer>>
+    {
+        public void OnCompleted()
+        {
+            Console.WriteLine("On Completed");
+        }
+
+        public void OnError(Exception error)
+        {
+            Console.WriteLine("On Error");
+        }
+
+        public void OnNext(ConsumeContext<UserConsumer> value)
+        {
+            Console.WriteLine("On Next");
+        }
+    }
 }
