@@ -1,5 +1,6 @@
 namespace MassTransitApi
 {
+    using System.Reflection;
     using Commands;
     using Events;
     using MassTransit;
@@ -8,6 +9,7 @@ namespace MassTransitApi
     using Microsoft.Extensions.Configuration;
     using Microsoft.Extensions.DependencyInjection;
     using Microsoft.Extensions.Hosting;
+    using Processors;
 
     public class Startup
     {
@@ -22,18 +24,23 @@ namespace MassTransitApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
-
-            services.AddMediator(config =>
+            
+            services.AddMediator(mediator =>
             {
-                config.AddConsumer<UserConsumer>();
-                config.AddConsumer<InformAboutUserCreation>();
-                config.AddConsumer<EmailCreatedUser>();
-
-                config.AddRequestClient<CreateUser>();
-                config.AddRequestClient<UserCreated>();
+                mediator.ConfigureMediator((context, config) =>
+                {
+                });
+                
+                mediator.AddRequestClient<CreateUser>();
+                mediator.AddRequestClient<UserCreated>();
+                
+                mediator.AddConsumers(Assembly.GetExecutingAssembly());
             });
 
-            services.AddMassTransit(x => { x.UsingInMemory(); });
+            services.AddMassTransit(x =>
+            {
+                x.UsingInMemory();
+            });
 
             services.AddOpenApiDocument(config => config.PostProcess = d => d.Info.Title = "Sample API");
         }

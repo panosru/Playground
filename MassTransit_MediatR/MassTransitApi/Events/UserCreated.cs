@@ -8,11 +8,11 @@ namespace MassTransitApi.Events
     {
         public Guid Id { get; set; }
 
-        public DateTime Created { get; set; }
-
         public string Name { get; set; }
 
         public string Surname { get; set; }
+        
+        public bool IsAdult { get; set; }
     }
 
     public class InformAboutUserCreation :

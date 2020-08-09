@@ -1,5 +1,6 @@
 namespace MediatrApi.Controllers
 {
+    using System;
     using System.Threading.Tasks;
     using Commands;
     using Dtos;
@@ -21,6 +22,8 @@ namespace MediatrApi.Controllers
         [HttpPost]
         public async Task<User> Post([FromBody] CreateUser command)
         {
+            Console.WriteLine("Calling the API method");
+            
             var user = await _mediator.Send(command);
 
             await _mediator.Publish(new UserCreated
