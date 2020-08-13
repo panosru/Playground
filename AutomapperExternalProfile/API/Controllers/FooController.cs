@@ -3,6 +3,7 @@
     using Application.Dto;
     using AutoMapper;
     using AutoMapper.QueryableExtensions;
+    using Infrastructure;
     using Microsoft.AspNetCore.Mvc;
 
     [ApiController]

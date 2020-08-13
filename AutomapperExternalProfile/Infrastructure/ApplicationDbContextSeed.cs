@@ -1,8 +1,8 @@
-namespace API
+namespace Infrastructure
 {
     using System;
     using System.Threading.Tasks;
-    using Application.Entities;
+    using Core.Entities;
 
     public class ApplicationDbContextSeed
     {

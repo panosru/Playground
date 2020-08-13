@@ -1,6 +1,6 @@
-namespace API
+namespace Infrastructure
 {
-    using Application.Entities;
+    using Core.Entities;
     using Microsoft.EntityFrameworkCore;
 
     public class ApplicationDbContext : DbContext
