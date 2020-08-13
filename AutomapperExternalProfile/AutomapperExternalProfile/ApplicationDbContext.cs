@@ -1,7 +1,7 @@
 namespace AutomapperExternalProfile
 {
-    using Entities;
     using Microsoft.EntityFrameworkCore;
+    using MyApp.Entities;
 
     public class ApplicationDbContext : DbContext
     {

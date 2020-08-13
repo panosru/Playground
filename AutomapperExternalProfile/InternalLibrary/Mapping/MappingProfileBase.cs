@@ -10,8 +10,15 @@ namespace InternalLibrary.Mapping
     {
         public MappingProfileBase()
         {
-            ApplyMappingsFromAssembly(GetType().Assembly);
+            ApplyMappingsFromAssembly(Assembly.GetEntryAssembly());
+            // ApplyMappingsFromAssembly(GetType().Assembly);
             // ApplyMappingsFromAssembly(typeof(MappingProfileBase).Assembly);
+            
+            Console.WriteLine(Assembly.GetEntryAssembly().FullName);
+            Console.WriteLine(Assembly.GetExecutingAssembly().FullName);
+            Console.WriteLine(Assembly.GetCallingAssembly().FullName);
+            Console.WriteLine(GetType().Assembly.FullName);
+            Console.WriteLine(typeof(MappingProfileBase).Assembly.FullName);
         }
 
         private void ApplyMappingsFromAssembly(Assembly assembly)

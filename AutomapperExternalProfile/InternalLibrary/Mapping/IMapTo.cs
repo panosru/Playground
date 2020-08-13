@@ -1,10 +1,8 @@
 namespace InternalLibrary.Mapping
 {
-    using AutoMapper;
-
     public interface IMapTo<T>
     {
-        void Mapping(Profile profile)
+        void Mapping(MappingProfileBase profile)
         {
             profile.CreateMap(GetType(), typeof(T));
         }

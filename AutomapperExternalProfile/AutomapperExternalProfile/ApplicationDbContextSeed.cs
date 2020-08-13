@@ -2,7 +2,7 @@ namespace AutomapperExternalProfile
 {
     using System;
     using System.Threading.Tasks;
-    using Entities;
+    using MyApp.Entities;
 
     public class ApplicationDbContextSeed
     {

@@ -1,4 +1,4 @@
-namespace AutomapperExternalProfile.Entities
+namespace MyApp.Entities
 {
     using System;
 

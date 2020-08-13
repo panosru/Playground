@@ -1,6 +1,5 @@
-namespace AutomapperExternalProfile.Dto
+namespace MyApp.Dto
 {
-    using AutoMapper;
     using Entities;
     using InternalLibrary.Mapping;
 
@@ -14,7 +13,7 @@ namespace AutomapperExternalProfile.Dto
         
         public string Notes { get; set; }
         
-        public void Mapping(Profile profile)
+        public void Mapping(MappingProfileBase profile)
         {
             profile.CreateMap<FooEntity, FooDto>()
                 .ForMember(d => 

@@ -2,6 +2,7 @@ namespace AutomapperExternalProfile
 {
     using System.Reflection;
     using AutoMapper;
+    using InternalLibrary.Mapping;
     using Microsoft.EntityFrameworkCore;
     using Microsoft.AspNetCore.Builder;
     using Microsoft.AspNetCore.Hosting;
@@ -21,7 +22,7 @@ namespace AutomapperExternalProfile
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddAutoMapper(Assembly.GetExecutingAssembly());
+            services.AddAutoMapper(typeof(MappingProfileBase));
 
             services.AddDbContext<ApplicationDbContext>();
             

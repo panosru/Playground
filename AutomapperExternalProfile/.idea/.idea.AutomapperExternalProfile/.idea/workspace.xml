@@ -20,9 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dce69fcd-fbe3-40a5-95b6-0123418a58ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/InternalLibrary/Mapping/IMapFrom.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/InternalLibrary/Mapping/IMapTo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/InternalLibrary/Mapping/MappingProfileBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AutomapperExternalProfile/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AutomapperExternalProfile/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AutomapperExternalProfile/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AutomapperExternalProfile/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutomapperExternalProfile.sln" beforeDir="false" afterPath="$PROJECT_DIR$/AutomapperExternalProfile.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutomapperExternalProfile/ApplicationDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AutomapperExternalProfile/ApplicationDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutomapperExternalProfile/ApplicationDbContextSeed.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AutomapperExternalProfile/ApplicationDbContextSeed.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutomapperExternalProfile/AutomapperExternalProfile.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AutomapperExternalProfile/AutomapperExternalProfile.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutomapperExternalProfile/Controllers/FooController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AutomapperExternalProfile/Controllers/FooController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutomapperExternalProfile/Dto/FooDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyApp/Dto/FooDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutomapperExternalProfile/Entities/FooEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyApp/Entities/FooEntity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutomapperExternalProfile/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AutomapperExternalProfile/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InternalLibrary/Mapping/IMapFrom.cs" beforeDir="false" afterPath="$PROJECT_DIR$/InternalLibrary/Mapping/IMapFrom.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InternalLibrary/Mapping/IMapTo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/InternalLibrary/Mapping/IMapTo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InternalLibrary/Mapping/MappingProfileBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/InternalLibrary/Mapping/MappingProfileBase.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MassTransit_MediatR/.idea/.idea.MassTransit_MediatR/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MassTransit_MediatR/.idea/.idea.MassTransit_MediatR/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MassTransit_MediatR/.idea/.idea.MassTransit_MediatR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MassTransit_MediatR/.idea/.idea.MassTransit_MediatR/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MassTransit_MediatR/MassTransitApi/Commands/CreateUser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MassTransit_MediatR/MassTransitApi/Commands/CreateUser.cs" afterDir="false" />
@@ -47,9 +57,9 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/57B2A5CD-D468-4C19-BA79-131335305FAC/10/IHostBuilder.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AutomapperExternalProfile/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AutomapperExternalProfile/ApplicationDbContextSeed.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/AutomapperExternalProfile/Dto/FooDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyApp/Dto/FooDto.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AutomapperExternalProfile/Startup.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/AutomapperExternalProfile/Entities/FooEntity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyApp/Entities/FooEntity.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/InternalLibrary/Mapping/IMapFrom.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AutomapperExternalProfile/Controllers/FooController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/InternalLibrary/Mapping/MappingProfileBase.cs" root0="FORCE_HIGHLIGHTING" />
@@ -67,19 +77,22 @@
         <option value="$PROJECT_DIR$/AutomapperExternalProfile/Entities/Foo.cs" />
         <option value="$PROJECT_DIR$/AutomapperExternalProfile/Entities/FooEntity.cs" />
         <option value="$PROJECT_DIR$/AutomapperExternalProfile/appsettings.Development.json" />
-        <option value="$PROJECT_DIR$/AutomapperExternalProfile/ApplicationDbContextSeed.cs" />
         <option value="$PROJECT_DIR$/AutomapperExternalProfile/Mapping/IMapFrom.cs" />
         <option value="$PROJECT_DIR$/AutomapperExternalProfile/Mapping/IMapTo.cs" />
         <option value="$PROJECT_DIR$/AutomapperExternalProfile/Mapping/MappingProfileBase.cs" />
-        <option value="$PROJECT_DIR$/AutomapperExternalProfile/ApplicationDbContext.cs" />
-        <option value="$PROJECT_DIR$/AutomapperExternalProfile/Startup.cs" />
-        <option value="$PROJECT_DIR$/AutomapperExternalProfile/Controllers/FooController.cs" />
         <option value="$PROJECT_DIR$/AutomapperExternalProfile/Program.cs" />
         <option value="$PROJECT_DIR$/InternalLibrary/Class1.cs" />
         <option value="$PROJECT_DIR$/AutomapperExternalProfile/Dto/FooDto.cs" />
+        <option value="$PROJECT_DIR$/AutomapperExternalProfile/Startup.cs" />
         <option value="$PROJECT_DIR$/InternalLibrary/Mapping/IMapFrom.cs" />
         <option value="$PROJECT_DIR$/InternalLibrary/Mapping/IMapTo.cs" />
         <option value="$PROJECT_DIR$/InternalLibrary/Mapping/MappingProfileBase.cs" />
+        <option value="$PROJECT_DIR$/MyApp/Class1.cs" />
+        <option value="$PROJECT_DIR$/AutomapperExternalProfile/AutomapperExternalProfile.csproj" />
+        <option value="$PROJECT_DIR$/MyApp/Dto/FooDto.cs" />
+        <option value="$PROJECT_DIR$/AutomapperExternalProfile/ApplicationDbContextSeed.cs" />
+        <option value="$PROJECT_DIR$/AutomapperExternalProfile/ApplicationDbContext.cs" />
+        <option value="$PROJECT_DIR$/AutomapperExternalProfile/Controllers/FooController.cs" />
       </list>
     </option>
   </component>
@@ -141,7 +154,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597344998925</updated>
-      <workItem from="1597345006786" duration="7661000" />
+      <workItem from="1597345006786" duration="8386000" />
     </task>
     <servers />
   </component>
@@ -163,94 +176,94 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="4577" y="177" width="1292" height="758" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597345189424">
+    <state x="4577" y="177" width="1292" height="758" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597353686141">
       <screen x="3840" y="0" width="2560" height="1080" />
     </state>
-    <state x="4577" y="177" width="1292" height="758" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1440.-171.1440.2560/3840.0.2560.1080/3840.1080.2560.1080/0.0.3840.2160/6400.0.3840.2160@3840.0.2560.1080" timestamp="1597345189424" />
-    <state width="2498" height="388" key="GridCell.Tab.0.bottom" timestamp="1597349851837">
+    <state x="4577" y="177" width="1292" height="758" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1440.-171.1440.2560/3840.0.2560.1080/3840.1080.2560.1080/0.0.3840.2160/6400.0.3840.2160@3840.0.2560.1080" timestamp="1597353686141" />
+    <state width="2498" height="388" key="GridCell.Tab.0.bottom" timestamp="1597353996226">
       <screen x="3840" y="0" width="2560" height="1080" />
     </state>
-    <state width="2498" height="388" key="GridCell.Tab.0.bottom/-1440.-171.1440.2560/3840.0.2560.1080/3840.1080.2560.1080/0.0.3840.2160/6400.0.3840.2160@3840.0.2560.1080" timestamp="1597349851837" />
-    <state width="2498" height="388" key="GridCell.Tab.0.center" timestamp="1597349851834">
+    <state width="2498" height="388" key="GridCell.Tab.0.bottom/-1440.-171.1440.2560/3840.0.2560.1080/3840.1080.2560.1080/0.0.3840.2160/6400.0.3840.2160@3840.0.2560.1080" timestamp="1597353996226" />
+    <state width="2498" height="388" key="GridCell.Tab.0.center" timestamp="1597353996210">
       <screen x="3840" y="0" width="2560" height="1080" />
     </state>
-    <state width="2498" height="388" key="GridCell.Tab.0.center/-1440.-171.1440.2560/3840.0.2560.1080/3840.1080.2560.1080/0.0.3840.2160/6400.0.3840.2160@3840.0.2560.1080" timestamp="1597349851834" />
-    <state width="2498" height="388" key="GridCell.Tab.0.left" timestamp="1597349851832">
+    <state width="2498" height="388" key="GridCell.Tab.0.center/-1440.-171.1440.2560/3840.0.2560.1080/3840.1080.2560.1080/0.0.3840.2160/6400.0.3840.2160@3840.0.2560.1080" timestamp="1597353996210" />
+    <state width="2498" height="388" key="GridCell.Tab.0.left" timestamp="1597353996198">
       <screen x="3840" y="0" width="2560" height="1080" />
     </state>
-    <state width="2498" height="388" key="GridCell.Tab.0.left/-1440.-171.1440.2560/3840.0.2560.1080/3840.1080.2560.1080/0.0.3840.2160/6400.0.3840.2160@3840.0.2560.1080" timestamp="1597349851832" />
-    <state width="2498" height="388" key="GridCell.Tab.0.right" timestamp="1597349851835">
+    <state width="2498" height="388" key="GridCell.Tab.0.left/-1440.-171.1440.2560/3840.0.2560.1080/3840.1080.2560.1080/0.0.3840.2160/6400.0.3840.2160@3840.0.2560.1080" timestamp="1597353996198" />
+    <state width="2498" height="388" key="GridCell.Tab.0.right" timestamp="1597353996221">
       <screen x="3840" y="0" width="2560" height="1080" />
     </state>
-    <state width="2498" height="388" key="GridCell.Tab.0.right/-1440.-171.1440.2560/3840.0.2560.1080/3840.1080.2560.1080/0.0.3840.2160/6400.0.3840.2160@3840.0.2560.1080" timestamp="1597349851835" />
-    <state width="2498" height="388" key="GridCell.Tab.1.bottom" timestamp="1597349851844">
+    <state width="2498" height="388" key="GridCell.Tab.0.right/-1440.-171.1440.2560/3840.0.2560.1080/3840.1080.2560.1080/0.0.3840.2160/6400.0.3840.2160@3840.0.2560.1080" timestamp="1597353996221" />
+    <state width="2498" height="388" key="GridCell.Tab.1.bottom" timestamp="1597353996244">
       <screen x="3840" y="0" width="2560" height="1080" />
     </state>
-    <state width="2498" height="388" key="GridCell.Tab.1.bottom/-1440.-171.1440.2560/3840.0.2560.1080/3840.1080.2560.1080/0.0.3840.2160/6400.0.3840.2160@3840.0.2560.1080" timestamp="1597349851844" />
-    <state width="2498" height="388" key="GridCell.Tab.1.center" timestamp="1597349851841">
+    <state width="2498" height="388" key="GridCell.Tab.1.bottom/-1440.-171.1440.2560/3840.0.2560.1080/3840.1080.2560.1080/0.0.3840.2160/6400.0.3840.2160@3840.0.2560.1080" timestamp="1597353996244" />
+    <state width="2498" height="388" key="GridCell.Tab.1.center" timestamp="1597353996234">
       <screen x="3840" y="0" width="2560" height="1080" />
     </state>
-    <state width="2498" height="388" key="GridCell.Tab.1.center/-1440.-171.1440.2560/3840.0.2560.1080/3840.1080.2560.1080/0.0.3840.2160/6400.0.3840.2160@3840.0.2560.1080" timestamp="1597349851841" />
-    <state width="2498" height="388" key="GridCell.Tab.1.left" timestamp="1597349851839">
+    <state width="2498" height="388" key="GridCell.Tab.1.center/-1440.-171.1440.2560/3840.0.2560.1080/3840.1080.2560.1080/0.0.3840.2160/6400.0.3840.2160@3840.0.2560.1080" timestamp="1597353996234" />
+    <state width="2498" height="388" key="GridCell.Tab.1.left" timestamp="1597353996230">
       <screen x="3840" y="0" width="2560" height="1080" />
     </state>
-    <state width="2498" height="388" key="GridCell.Tab.1.left/-1440.-171.1440.2560/3840.0.2560.1080/3840.1080.2560.1080/0.0.3840.2160/6400.0.3840.2160@3840.0.2560.1080" timestamp="1597349851839" />
-    <state width="2498" height="388" key="GridCell.Tab.1.right" timestamp="1597349851842">
+    <state width="2498" height="388" key="GridCell.Tab.1.left/-1440.-171.1440.2560/3840.0.2560.1080/3840.1080.2560.1080/0.0.3840.2160/6400.0.3840.2160@3840.0.2560.1080" timestamp="1597353996230" />
+    <state width="2498" height="388" key="GridCell.Tab.1.right" timestamp="1597353996240">
       <screen x="3840" y="0" width="2560" height="1080" />
     </state>
-    <state width="2498" height="388" key="GridCell.Tab.1.right/-1440.-171.1440.2560/3840.0.2560.1080/3840.1080.2560.1080/0.0.3840.2160/6400.0.3840.2160@3840.0.2560.1080" timestamp="1597349851842" />
-    <state width="2498" height="388" key="GridCell.Tab.2.bottom" timestamp="1597349851851">
+    <state width="2498" height="388" key="GridCell.Tab.1.right/-1440.-171.1440.2560/3840.0.2560.1080/3840.1080.2560.1080/0.0.3840.2160/6400.0.3840.2160@3840.0.2560.1080" timestamp="1597353996240" />
+    <state width="2498" height="388" key="GridCell.Tab.2.bottom" timestamp="1597353996252">
       <screen x="3840" y="0" width="2560" height="1080" />
     </state>
-    <state width="2498" height="388" key="GridCell.Tab.2.bottom/-1440.-171.1440.2560/3840.0.2560.1080/3840.1080.2560.1080/0.0.3840.2160/6400.0.3840.2160@3840.0.2560.1080" timestamp="1597349851851" />
-    <state width="2498" height="388" key="GridCell.Tab.2.center" timestamp="1597349851847">
+    <state width="2498" height="388" key="GridCell.Tab.2.bottom/-1440.-171.1440.2560/3840.0.2560.1080/3840.1080.2560.1080/0.0.3840.2160/6400.0.3840.2160@3840.0.2560.1080" timestamp="1597353996252" />
+    <state width="2498" height="388" key="GridCell.Tab.2.center" timestamp="1597353996248">
       <screen x="3840" y="0" width="2560" height="1080" />
     </state>
-    <state width="2498" height="388" key="GridCell.Tab.2.center/-1440.-171.1440.2560/3840.0.2560.1080/3840.1080.2560.1080/0.0.3840.2160/6400.0.3840.2160@3840.0.2560.1080" timestamp="1597349851847" />
-    <state width="2498" height="388" key="GridCell.Tab.2.left" timestamp="1597349851846">
+    <state width="2498" height="388" key="GridCell.Tab.2.center/-1440.-171.1440.2560/3840.0.2560.1080/3840.1080.2560.1080/0.0.3840.2160/6400.0.3840.2160@3840.0.2560.1080" timestamp="1597353996248" />
+    <state width="2498" height="388" key="GridCell.Tab.2.left" timestamp="1597353996246">
       <screen x="3840" y="0" width="2560" height="1080" />
     </state>
-    <state width="2498" height="388" key="GridCell.Tab.2.left/-1440.-171.1440.2560/3840.0.2560.1080/3840.1080.2560.1080/0.0.3840.2160/6400.0.3840.2160@3840.0.2560.1080" timestamp="1597349851846" />
-    <state width="2498" height="388" key="GridCell.Tab.2.right" timestamp="1597349851849">
+    <state width="2498" height="388" key="GridCell.Tab.2.left/-1440.-171.1440.2560/3840.0.2560.1080/3840.1080.2560.1080/0.0.3840.2160/6400.0.3840.2160@3840.0.2560.1080" timestamp="1597353996246" />
+    <state width="2498" height="388" key="GridCell.Tab.2.right" timestamp="1597353996250">
       <screen x="3840" y="0" width="2560" height="1080" />
     </state>
-    <state width="2498" height="388" key="GridCell.Tab.2.right/-1440.-171.1440.2560/3840.0.2560.1080/3840.1080.2560.1080/0.0.3840.2160/6400.0.3840.2160@3840.0.2560.1080" timestamp="1597349851849" />
-    <state width="2498" height="388" key="GridCell.Tab.3.bottom" timestamp="1597349851858">
+    <state width="2498" height="388" key="GridCell.Tab.2.right/-1440.-171.1440.2560/3840.0.2560.1080/3840.1080.2560.1080/0.0.3840.2160/6400.0.3840.2160@3840.0.2560.1080" timestamp="1597353996250" />
+    <state width="2498" height="388" key="GridCell.Tab.3.bottom" timestamp="1597353996265">
       <screen x="3840" y="0" width="2560" height="1080" />
     </state>
-    <state width="2498" height="388" key="GridCell.Tab.3.bottom/-1440.-171.1440.2560/3840.0.2560.1080/3840.1080.2560.1080/0.0.3840.2160/6400.0.3840.2160@3840.0.2560.1080" timestamp="1597349851858" />
-    <state width="2498" height="388" key="GridCell.Tab.3.center" timestamp="1597349851854">
+    <state width="2498" height="388" key="GridCell.Tab.3.bottom/-1440.-171.1440.2560/3840.0.2560.1080/3840.1080.2560.1080/0.0.3840.2160/6400.0.3840.2160@3840.0.2560.1080" timestamp="1597353996265" />
+    <state width="2498" height="388" key="GridCell.Tab.3.center" timestamp="1597353996261">
       <screen x="3840" y="0" width="2560" height="1080" />
     </state>
-    <state width="2498" height="388" key="GridCell.Tab.3.center/-1440.-171.1440.2560/3840.0.2560.1080/3840.1080.2560.1080/0.0.3840.2160/6400.0.3840.2160@3840.0.2560.1080" timestamp="1597349851854" />
-    <state width="2498" height="388" key="GridCell.Tab.3.left" timestamp="1597349851852">
+    <state width="2498" height="388" key="GridCell.Tab.3.center/-1440.-171.1440.2560/3840.0.2560.1080/3840.1080.2560.1080/0.0.3840.2160/6400.0.3840.2160@3840.0.2560.1080" timestamp="1597353996261" />
+    <state width="2498" height="388" key="GridCell.Tab.3.left" timestamp="1597353996253">
       <screen x="3840" y="0" width="2560" height="1080" />
     </state>
-    <state width="2498" height="388" key="GridCell.Tab.3.left/-1440.-171.1440.2560/3840.0.2560.1080/3840.1080.2560.1080/0.0.3840.2160/6400.0.3840.2160@3840.0.2560.1080" timestamp="1597349851852" />
-    <state width="2498" height="388" key="GridCell.Tab.3.right" timestamp="1597349851856">
+    <state width="2498" height="388" key="GridCell.Tab.3.left/-1440.-171.1440.2560/3840.0.2560.1080/3840.1080.2560.1080/0.0.3840.2160/6400.0.3840.2160@3840.0.2560.1080" timestamp="1597353996253" />
+    <state width="2498" height="388" key="GridCell.Tab.3.right" timestamp="1597353996263">
       <screen x="3840" y="0" width="2560" height="1080" />
     </state>
-    <state width="2498" height="388" key="GridCell.Tab.3.right/-1440.-171.1440.2560/3840.0.2560.1080/3840.1080.2560.1080/0.0.3840.2160/6400.0.3840.2160@3840.0.2560.1080" timestamp="1597349851856" />
-    <state width="2498" height="388" key="GridCell.Tab.4.bottom" timestamp="1597349851866">
+    <state width="2498" height="388" key="GridCell.Tab.3.right/-1440.-171.1440.2560/3840.0.2560.1080/3840.1080.2560.1080/0.0.3840.2160/6400.0.3840.2160@3840.0.2560.1080" timestamp="1597353996263" />
+    <state width="2498" height="388" key="GridCell.Tab.4.bottom" timestamp="1597353996289">
       <screen x="3840" y="0" width="2560" height="1080" />
     </state>
-    <state width="2498" height="388" key="GridCell.Tab.4.bottom/-1440.-171.1440.2560/3840.0.2560.1080/3840.1080.2560.1080/0.0.3840.2160/6400.0.3840.2160@3840.0.2560.1080" timestamp="1597349851866" />
-    <state width="2498" height="388" key="GridCell.Tab.4.center" timestamp="1597349851862">
+    <state width="2498" height="388" key="GridCell.Tab.4.bottom/-1440.-171.1440.2560/3840.0.2560.1080/3840.1080.2560.1080/0.0.3840.2160/6400.0.3840.2160@3840.0.2560.1080" timestamp="1597353996289" />
+    <state width="2498" height="388" key="GridCell.Tab.4.center" timestamp="1597353996284">
       <screen x="3840" y="0" width="2560" height="1080" />
     </state>
-    <state width="2498" height="388" key="GridCell.Tab.4.center/-1440.-171.1440.2560/3840.0.2560.1080/3840.1080.2560.1080/0.0.3840.2160/6400.0.3840.2160@3840.0.2560.1080" timestamp="1597349851862" />
-    <state width="2498" height="388" key="GridCell.Tab.4.left" timestamp="1597349851860">
+    <state width="2498" height="388" key="GridCell.Tab.4.center/-1440.-171.1440.2560/3840.0.2560.1080/3840.1080.2560.1080/0.0.3840.2160/6400.0.3840.2160@3840.0.2560.1080" timestamp="1597353996284" />
+    <state width="2498" height="388" key="GridCell.Tab.4.left" timestamp="1597353996266">
       <screen x="3840" y="0" width="2560" height="1080" />
     </state>
-    <state width="2498" height="388" key="GridCell.Tab.4.left/-1440.-171.1440.2560/3840.0.2560.1080/3840.1080.2560.1080/0.0.3840.2160/6400.0.3840.2160@3840.0.2560.1080" timestamp="1597349851860" />
-    <state width="2498" height="388" key="GridCell.Tab.4.right" timestamp="1597349851865">
+    <state width="2498" height="388" key="GridCell.Tab.4.left/-1440.-171.1440.2560/3840.0.2560.1080/3840.1080.2560.1080/0.0.3840.2160/6400.0.3840.2160@3840.0.2560.1080" timestamp="1597353996266" />
+    <state width="2498" height="388" key="GridCell.Tab.4.right" timestamp="1597353996287">
       <screen x="3840" y="0" width="2560" height="1080" />
     </state>
-    <state width="2498" height="388" key="GridCell.Tab.4.right/-1440.-171.1440.2560/3840.0.2560.1080/3840.1080.2560.1080/0.0.3840.2160/6400.0.3840.2160@3840.0.2560.1080" timestamp="1597349851865" />
-    <state x="4520" y="154" key="Rider.ProjectTemplateDialog.Size" timestamp="1597353366557">
+    <state width="2498" height="388" key="GridCell.Tab.4.right/-1440.-171.1440.2560/3840.0.2560.1080/3840.1080.2560.1080/0.0.3840.2160/6400.0.3840.2160@3840.0.2560.1080" timestamp="1597353996287" />
+    <state x="4520" y="154" key="Rider.ProjectTemplateDialog.Size" timestamp="1597354014621">
       <screen x="3840" y="0" width="2560" height="1080" />
     </state>
-    <state x="4520" y="154" key="Rider.ProjectTemplateDialog.Size/-1440.-171.1440.2560/3840.0.2560.1080/3840.1080.2560.1080/0.0.3840.2160/6400.0.3840.2160@3840.0.2560.1080" timestamp="1597353366557" />
+    <state x="4520" y="154" key="Rider.ProjectTemplateDialog.Size/-1440.-171.1440.2560/3840.0.2560.1080/3840.1080.2560.1080/0.0.3840.2160/6400.0.3840.2160@3840.0.2560.1080" timestamp="1597354014621" />
     <state x="4711" y="80" key="RiderGenerateDialog" timestamp="1597349785621">
       <screen x="3840" y="0" width="2560" height="1080" />
     </state>
@@ -266,15 +279,28 @@
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/InternalLibrary/Mapping/MappingProfileBase.cs</url>
           <line>12</line>
-          <properties documentPath="$PROJECT_DIR$/AutomapperExternalProfile/Mapping/MappingProfileBase.cs" initialLine="12">
+          <properties documentPath="$PROJECT_DIR$/InternalLibrary/Mapping/MappingProfileBase.cs" initialLine="12">
             <startOffsets>
               <option value="277" />
             </startOffsets>
             <endOffsets>
-              <option value="323" />
+              <option value="332" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="1" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/InternalLibrary/Mapping/MappingProfileBase.cs</url>
+          <line>25</line>
+          <properties documentPath="$PROJECT_DIR$/InternalLibrary/Mapping/MappingProfileBase.cs" initialLine="19">
+            <startOffsets>
+              <option value="936" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1349" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
