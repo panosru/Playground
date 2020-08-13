@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.gitignore" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.1/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.1/resharper-host/local/Transient/ReSharperHost/v201/SolutionCaches/_AutomapperExternalProfile.-1199827101.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="AutomapperExternalProfile" t="IncludeRecursive">
+        <e p="ApplicationDbContext.cs" t="Include" />
+        <e p="ApplicationDbContextSeed.cs" t="Include" />
+        <e p="AutomapperExternalProfile.csproj" t="IncludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="FooController.cs" t="Include" />
+        </e>
+        <e p="Dto" t="Include">
+          <e p="FooDto.cs" t="Include" />
+        </e>
+        <e p="Entities" t="Include">
+          <e p="FooEntity.cs" t="Include" />
+        </e>
+        <e p="Mapping" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="AutomapperExternalProfile.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="AutomapperExternalProfile.sln" t="IncludeFlat" />
+      <e p="InternalLibrary" t="IncludeRecursive">
+        <e p="InternalLibrary.csproj" t="IncludeRecursive" />
+        <e p="Mapping" t="Include">
+          <e p="IMapFrom.cs" t="Include" />
+          <e p="IMapTo.cs" t="Include" />
+          <e p="MappingProfileBase.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="InternalLibrary.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
