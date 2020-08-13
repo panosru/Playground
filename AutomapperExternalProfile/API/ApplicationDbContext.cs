@@ -1,12 +1,13 @@
-namespace AutomapperExternalProfile
+namespace API
 {
+    using Application.Entities;
     using Microsoft.EntityFrameworkCore;
-    using MyApp.Entities;
 
     public class ApplicationDbContext : DbContext
     {
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
-        { 
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
+            : base(options)
+        {
         }
 
         public DbSet<FooEntity> Foo { get; set; }
@@ -14,7 +15,7 @@ namespace AutomapperExternalProfile
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseInMemoryDatabase("Test");
-            
+
             base.OnConfiguring(optionsBuilder);
         }
     }

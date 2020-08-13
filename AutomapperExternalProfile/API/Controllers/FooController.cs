@@ -1,17 +1,17 @@
-﻿namespace AutomapperExternalProfile.Controllers
+﻿namespace API.Controllers
 {
-    using Microsoft.AspNetCore.Mvc;
+    using Application.Dto;
     using AutoMapper;
     using AutoMapper.QueryableExtensions;
-    using MyApp.Dto;
+    using Microsoft.AspNetCore.Mvc;
 
     [ApiController]
     [Route("[controller]")]
     public class FooController : ControllerBase
     {
+        private readonly ApplicationDbContext _context;
 
         private readonly IMapper _mapper;
-        private readonly ApplicationDbContext _context;
 
         public FooController(IMapper mapper, ApplicationDbContext context)
         {
@@ -22,7 +22,7 @@
         [HttpGet]
         public object Get()
         {
-            return new { Data = _context.Foo.ProjectTo<FooDto>(_mapper.ConfigurationProvider)};
+            return new {Data = _context.Foo.ProjectTo<FooDto>(_mapper.ConfigurationProvider)};
         }
     }
 }

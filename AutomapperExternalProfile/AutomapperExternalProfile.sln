@@ -1,10 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomapperExternalProfile", "AutomapperExternalProfile\AutomapperExternalProfile.csproj", "{E9630813-B184-4AEB-8F97-3D500E3CE239}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{E9630813-B184-4AEB-8F97-3D500E3CE239}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InternalLibrary", "InternalLibrary\InternalLibrary.csproj", "{D5F34178-7699-4876-A1E3-E6FBD62B677E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{D5F34178-7699-4876-A1E3-E6FBD62B677E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApp", "MyApp\MyApp.csproj", "{05D9A3C1-6170-457B-8B1D-045AA38A489E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{05D9A3C1-6170-457B-8B1D-045AA38A489E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

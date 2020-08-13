@@ -1,7 +1,7 @@
-namespace MyApp.Dto
+namespace Application.Dto
 {
+    using Core.Mapping;
     using Entities;
-    using InternalLibrary.Mapping;
 
     public class FooDto : IMapFrom<FooEntity>
     {
@@ -10,16 +10,17 @@ namespace MyApp.Dto
         public string Category { get; set; }
 
         public int Views { get; set; }
-        
+
         public string Notes { get; set; }
-        
+
         public void Mapping(MappingProfileBase profile)
         {
             profile.CreateMap<FooEntity, FooDto>()
-                .ForMember(d => 
-                        d.Views, 
-                    opt => 
-                        opt.MapFrom(s => (int) s.Views));
+                .ForMember(
+                    d =>
+                        d.Views,
+                    opt =>
+                        opt.MapFrom(s => s.Views));
         }
     }
 }

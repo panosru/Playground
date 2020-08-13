@@ -23,16 +23,22 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AutomapperExternalProfile/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AutomapperExternalProfile/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AutomapperExternalProfile/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AutomapperExternalProfile/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AutomapperExternalProfile.sln" beforeDir="false" afterPath="$PROJECT_DIR$/AutomapperExternalProfile.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomapperExternalProfile/ApplicationDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AutomapperExternalProfile/ApplicationDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomapperExternalProfile/ApplicationDbContextSeed.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AutomapperExternalProfile/ApplicationDbContextSeed.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomapperExternalProfile/AutomapperExternalProfile.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AutomapperExternalProfile/AutomapperExternalProfile.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomapperExternalProfile/Controllers/FooController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AutomapperExternalProfile/Controllers/FooController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomapperExternalProfile/Dto/FooDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyApp/Dto/FooDto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomapperExternalProfile/Entities/FooEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyApp/Entities/FooEntity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomapperExternalProfile/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AutomapperExternalProfile/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InternalLibrary/Mapping/IMapFrom.cs" beforeDir="false" afterPath="$PROJECT_DIR$/InternalLibrary/Mapping/IMapFrom.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InternalLibrary/Mapping/IMapTo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/InternalLibrary/Mapping/IMapTo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InternalLibrary/Mapping/MappingProfileBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/InternalLibrary/Mapping/MappingProfileBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutomapperExternalProfile/ApplicationDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/ApplicationDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutomapperExternalProfile/ApplicationDbContextSeed.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/ApplicationDbContextSeed.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutomapperExternalProfile/AutomapperExternalProfile.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/API/API.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutomapperExternalProfile/Controllers/FooController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Controllers/FooController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutomapperExternalProfile/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutomapperExternalProfile/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/API/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutomapperExternalProfile/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutomapperExternalProfile/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/API/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutomapperExternalProfile/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/API/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InternalLibrary/InternalLibrary.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Core.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InternalLibrary/Mapping/IMapFrom.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Mapping/IMapFrom.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InternalLibrary/Mapping/IMapTo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Mapping/IMapTo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InternalLibrary/Mapping/MappingProfileBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Mapping/MappingProfileBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyApp/Dto/FooDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Dto/FooDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyApp/Entities/FooEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Entities/FooEntity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyApp/MyApp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Application.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MassTransit_MediatR/.idea/.idea.MassTransit_MediatR/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MassTransit_MediatR/.idea/.idea.MassTransit_MediatR/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MassTransit_MediatR/.idea/.idea.MassTransit_MediatR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MassTransit_MediatR/.idea/.idea.MassTransit_MediatR/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MassTransit_MediatR/MassTransitApi/Commands/CreateUser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MassTransit_MediatR/MassTransitApi/Commands/CreateUser.cs" afterDir="false" />
@@ -55,16 +61,16 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/57B2A5CD-D468-4C19-BA79-131335305FAC/10/IHostBuilder.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/AutomapperExternalProfile/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/AutomapperExternalProfile/ApplicationDbContextSeed.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MyApp/Dto/FooDto.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/AutomapperExternalProfile/Startup.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MyApp/Entities/FooEntity.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/InternalLibrary/Mapping/IMapFrom.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/AutomapperExternalProfile/Controllers/FooController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/InternalLibrary/Mapping/MappingProfileBase.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/InternalLibrary/Mapping/IMapTo.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/AutomapperExternalProfile/ApplicationDbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/API/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/API/ApplicationDbContextSeed.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Application/Dto/FooDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/API/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Application/Entities/FooEntity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Core/Mapping/IMapFrom.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/API/Controllers/FooController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Core/Mapping/MappingProfileBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Core/Mapping/IMapTo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/API/ApplicationDbContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9EE8EE86-E367-481B-BF0E-11BEFE86882F/1D8/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -86,13 +92,17 @@
         <option value="$PROJECT_DIR$/AutomapperExternalProfile/Startup.cs" />
         <option value="$PROJECT_DIR$/InternalLibrary/Mapping/IMapFrom.cs" />
         <option value="$PROJECT_DIR$/InternalLibrary/Mapping/IMapTo.cs" />
-        <option value="$PROJECT_DIR$/InternalLibrary/Mapping/MappingProfileBase.cs" />
         <option value="$PROJECT_DIR$/MyApp/Class1.cs" />
         <option value="$PROJECT_DIR$/AutomapperExternalProfile/AutomapperExternalProfile.csproj" />
         <option value="$PROJECT_DIR$/MyApp/Dto/FooDto.cs" />
         <option value="$PROJECT_DIR$/AutomapperExternalProfile/ApplicationDbContextSeed.cs" />
         <option value="$PROJECT_DIR$/AutomapperExternalProfile/ApplicationDbContext.cs" />
         <option value="$PROJECT_DIR$/AutomapperExternalProfile/Controllers/FooController.cs" />
+        <option value="$PROJECT_DIR$/InternalLibrary/Mapping/MappingProfileBase.cs" />
+        <option value="$PROJECT_DIR$/Core/Mapping/MappingProfileBase.cs" />
+        <option value="$PROJECT_DIR$/Application/Dto/FooDto.cs" />
+        <option value="$PROJECT_DIR$/API/Startup.cs" />
+        <option value="$PROJECT_DIR$/API/ApplicationDbContext.cs" />
       </list>
     </option>
   </component>
@@ -154,7 +164,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597344998925</updated>
-      <workItem from="1597345006786" duration="8386000" />
+      <workItem from="1597345006786" duration="9116000" />
     </task>
     <servers />
   </component>
@@ -180,6 +190,10 @@
       <screen x="3840" y="0" width="2560" height="1080" />
     </state>
     <state x="4577" y="177" width="1292" height="758" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1440.-171.1440.2560/3840.0.2560.1080/3840.1080.2560.1080/0.0.3840.2160/6400.0.3840.2160@3840.0.2560.1080" timestamp="1597353686141" />
+    <state x="4803" y="351" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1" timestamp="1597362168260">
+      <screen x="3840" y="0" width="2560" height="1080" />
+    </state>
+    <state x="4803" y="351" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1/-1440.-171.1440.2560/3840.0.2560.1080/3840.1080.2560.1080/0.0.3840.2160/6400.0.3840.2160@3840.0.2560.1080" timestamp="1597362168260" />
     <state width="2498" height="388" key="GridCell.Tab.0.bottom" timestamp="1597353996226">
       <screen x="3840" y="0" width="2560" height="1080" />
     </state>
@@ -277,27 +291,27 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/InternalLibrary/Mapping/MappingProfileBase.cs</url>
+          <url>file://$PROJECT_DIR$/Core/Mapping/MappingProfileBase.cs</url>
           <line>12</line>
           <properties documentPath="$PROJECT_DIR$/InternalLibrary/Mapping/MappingProfileBase.cs" initialLine="12">
             <startOffsets>
-              <option value="277" />
+              <option value="228" />
             </startOffsets>
             <endOffsets>
-              <option value="332" />
+              <option value="283" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/InternalLibrary/Mapping/MappingProfileBase.cs</url>
+          <url>file://$PROJECT_DIR$/Core/Mapping/MappingProfileBase.cs</url>
           <line>25</line>
           <properties documentPath="$PROJECT_DIR$/InternalLibrary/Mapping/MappingProfileBase.cs" initialLine="19">
             <startOffsets>
-              <option value="936" />
+              <option value="875" />
             </startOffsets>
             <endOffsets>
-              <option value="1349" />
+              <option value="1281" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="3" />

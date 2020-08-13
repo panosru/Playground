@@ -1,4 +1,4 @@
-namespace InternalLibrary.Mapping
+namespace Core.Mapping
 {
     public interface IMapTo<T>
     {

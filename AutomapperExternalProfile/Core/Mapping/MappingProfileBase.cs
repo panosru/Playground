@@ -1,7 +1,6 @@
-namespace InternalLibrary.Mapping
+namespace Core.Mapping
 {
     using System;
-    using System.Collections.Generic;
     using System.Linq;
     using System.Reflection;
     using AutoMapper;
@@ -13,7 +12,7 @@ namespace InternalLibrary.Mapping
             ApplyMappingsFromAssembly(Assembly.GetEntryAssembly());
             // ApplyMappingsFromAssembly(GetType().Assembly);
             // ApplyMappingsFromAssembly(typeof(MappingProfileBase).Assembly);
-            
+
             Console.WriteLine(Assembly.GetEntryAssembly().FullName);
             Console.WriteLine(Assembly.GetExecutingAssembly().FullName);
             Console.WriteLine(Assembly.GetCallingAssembly().FullName);
@@ -23,7 +22,7 @@ namespace InternalLibrary.Mapping
 
         private void ApplyMappingsFromAssembly(Assembly assembly)
         {
-            List<Type> types = assembly.GetExportedTypes()
+            var types = assembly.GetExportedTypes()
                 .Where(
                     t => t.GetInterfaces()
                         .Any(
@@ -32,7 +31,7 @@ namespace InternalLibrary.Mapping
                                                     || i.GetGenericTypeDefinition() == typeof(IMapTo<>))))
                 .ToList();
 
-            foreach (Type type in types)
+            foreach (var type in types)
             {
                 var instance = Activator.CreateInstance(type);
 

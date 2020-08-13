@@ -1,4 +1,4 @@
-namespace MyApp.Entities
+namespace Application.Entities
 {
     using System;
 

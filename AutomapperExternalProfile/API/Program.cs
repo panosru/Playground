@@ -1,9 +1,9 @@
-namespace AutomapperExternalProfile
+namespace API
 {
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Hosting;
-    using Microsoft.Extensions.Hosting;
     using Microsoft.Extensions.DependencyInjection;
+    using Microsoft.Extensions.Hosting;
 
     public class Program
     {
@@ -14,17 +14,19 @@ namespace AutomapperExternalProfile
             using (var scope = host.Services.CreateScope())
             {
                 var services = scope.ServiceProvider;
-            
+
                 var context = services.GetRequiredService<ApplicationDbContext>();
-            
+
                 await ApplicationDbContextSeed.SeedSampleDataAsync(context);
             }
 
             await host.RunAsync();
         }
 
-        public static IHostBuilder CreateHostBuilder(string[] args) =>
-            Host.CreateDefaultBuilder(args)
+        public static IHostBuilder CreateHostBuilder(string[] args)
+        {
+            return Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder => { webBuilder.UseStartup<Startup>(); });
+        }
     }
 }

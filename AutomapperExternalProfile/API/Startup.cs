@@ -1,9 +1,7 @@
-namespace AutomapperExternalProfile
+namespace API
 {
-    using System.Reflection;
     using AutoMapper;
-    using InternalLibrary.Mapping;
-    using Microsoft.EntityFrameworkCore;
+    using Core.Mapping;
     using Microsoft.AspNetCore.Builder;
     using Microsoft.AspNetCore.Hosting;
     using Microsoft.Extensions.Configuration;
@@ -25,24 +23,22 @@ namespace AutomapperExternalProfile
             services.AddAutoMapper(typeof(MappingProfileBase));
 
             services.AddDbContext<ApplicationDbContext>();
-            
-            services.AddOpenApiDocument(config => 
-                config.PostProcess = d => 
-                    d.Info.Title = "Sample API");
-            
+
+            services.AddOpenApiDocument(
+                config =>
+                    config.PostProcess = d =>
+                        d.Info.Title = "Sample API");
+
             services.AddControllers();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            if (env.IsDevelopment())
-            {
-                app.UseDeveloperExceptionPage();
-            }
+            if (env.IsDevelopment()) app.UseDeveloperExceptionPage();
 
             app.UseHttpsRedirection();
-            
+
             app.UseOpenApi();
             app.UseSwaggerUi3();
 
