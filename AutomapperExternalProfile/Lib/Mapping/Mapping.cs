@@ -10,7 +10,7 @@ namespace Lib.Mapping
             this IServiceCollection services,
             Assembly assembly)
         {
-            services.AddAutoMapper(assembly);
+            services.AddAutoMapper(Assembly.GetExecutingAssembly(), assembly);
 
             return services;
         }

@@ -21,7 +21,7 @@ namespace API
         public void ConfigureServices(IServiceCollection services)
         {
             services
-                .AddApplication()
+                .AddApplication(typeof(Startup).Assembly)
                 .AddInfrastructure(Configuration);
 
             services.AddOpenApiDocument(

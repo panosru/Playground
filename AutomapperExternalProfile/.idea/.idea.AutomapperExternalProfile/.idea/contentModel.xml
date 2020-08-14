@@ -29,14 +29,16 @@
       <e p="Application" t="IncludeRecursive">
         <e p="Application.csproj" t="IncludeRecursive" />
         <e p="Commands" t="Include">
-          <e p="GetFoo.cs" t="Include" />
+          <e p="GetFooCommand.cs" t="Include" />
         </e>
         <e p="DependencyInjection.cs" t="Include" />
         <e p="Dto" t="Include">
           <e p="FooDto.cs" t="Include" />
         </e>
         <e p="IApplicationDbContext.cs" t="Include" />
-        <e p="MappingProfile.cs" t="Include" />
+        <e p="Mapping" t="Include">
+          <e p="MappingProfile.cs" t="Include" />
+        </e>
         <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">

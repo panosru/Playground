@@ -1,5 +1,6 @@
 namespace Application.Dto
 {
+    using AutoMapper;
     using Core.Entities;
     using Lib.Mapping;
 
@@ -13,14 +14,9 @@ namespace Application.Dto
 
         public string Notes { get; set; }
 
-        public void Mapping(MappingProfileBase profile)
+        public void Mapping(Profile profile)
         {
-            profile.CreateMap<FooEntity, FooDto>()
-                .ForMember(
-                    d =>
-                        d.Views,
-                    opt =>
-                        opt.MapFrom(s => s.Views));
+            profile.CreateMap<FooEntity, FooDto>();
         }
     }
 }
