@@ -1,8 +1,8 @@
 namespace API
 {
     using AutoMapper;
-    using Core.Mapping;
     using Infrastructure;
+    using Lib.Mapping;
     using Microsoft.AspNetCore.Builder;
     using Microsoft.AspNetCore.Hosting;
     using Microsoft.Extensions.Configuration;

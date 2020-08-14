@@ -1,4 +1,4 @@
-namespace Core.Mapping
+namespace Lib.Mapping
 {
     using System;
     using System.Linq;

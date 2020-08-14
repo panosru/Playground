@@ -1,4 +1,4 @@
-namespace Core.Mapping
+namespace Lib.Mapping
 {
     public interface IMapFrom<T>
     {

@@ -46,11 +46,6 @@
         <e p="Entities" t="Include">
           <e p="FooEntity.cs" t="Include" />
         </e>
-        <e p="Mapping" t="Include">
-          <e p="IMapFrom.cs" t="Include" />
-          <e p="IMapTo.cs" t="Include" />
-          <e p="MappingProfileBase.cs" t="Include" />
-        </e>
         <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -69,6 +64,22 @@
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
               <e p="Infrastructure.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Lib" t="IncludeRecursive">
+        <e p="Lib.csproj" t="IncludeRecursive" />
+        <e p="Mapping" t="Include">
+          <e p="IMapFrom.cs" t="Include" />
+          <e p="IMapTo.cs" t="Include" />
+          <e p="MappingProfileBase.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Lib.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
         </e>

@@ -1,7 +1,7 @@
 namespace Application.Dto
 {
     using Core.Entities;
-    using Core.Mapping;
+    using Lib.Mapping;
 
     public class FooDto : IMapFrom<FooEntity>
     {
