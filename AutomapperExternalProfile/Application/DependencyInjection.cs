@@ -1,7 +1,7 @@
 namespace Application
 {
-    using System;
     using System.Reflection;
+    using AutoMapper;
     using Commands;
     using Lib.Mapping;
     using Mappers;
@@ -11,9 +11,11 @@ namespace Application
     {
         public static IServiceCollection AddApplication(this IServiceCollection services, Assembly assembly)
         {
-            services.AddMappings(
-                Assembly.GetExecutingAssembly(), 
-                typeof(BarProfile).Assembly);
+            services.AddAutoMapper(
+                cfg =>
+                {
+                    cfg.AddProfile(new MappingProfile(Assembly.GetExecutingAssembly()));
+                }, typeof(BarProfile).Assembly);
 
             services.AddScoped<GetFooCommand>();
             services.AddScoped<GetBarCommand>();
