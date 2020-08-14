@@ -10,9 +10,12 @@ namespace Application
     {
         public static IServiceCollection AddApplication(this IServiceCollection services, Assembly assembly)
         {
-            services.AddMappings(Assembly.GetExecutingAssembly());
+            services.AddMappings(
+                Assembly.GetExecutingAssembly(), 
+                Assembly.GetExecutingAssembly());
 
             services.AddScoped<GetFooCommand>();
+            services.AddScoped<GetBarCommand>();
             
             return services;
         }

@@ -8,13 +8,14 @@ namespace Lib.Mapping
     {
         public static IServiceCollection AddMappings(
             this IServiceCollection services,
-            Assembly assembly)
+            Assembly assembly,
+            params Assembly[] assemblies)
         {
             services.AddAutoMapper(
                 cfg =>
                 {
                     cfg.AddProfile(new MappingProfile(assembly));
-                });
+                }, assemblies);
 
             return services;
         }

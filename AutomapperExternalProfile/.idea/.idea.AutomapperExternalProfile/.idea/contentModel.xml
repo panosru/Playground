@@ -8,7 +8,7 @@
       <e p="API" t="IncludeRecursive">
         <e p="API.csproj" t="IncludeRecursive" />
         <e p="Controllers" t="Include">
-          <e p="FooController.cs" t="Include" />
+          <e p="DemoController.cs" t="Include" />
         </e>
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
@@ -29,13 +29,18 @@
       <e p="Application" t="IncludeRecursive">
         <e p="Application.csproj" t="IncludeRecursive" />
         <e p="Commands" t="Include">
+          <e p="GetBarCommand.cs" t="Include" />
           <e p="GetFooCommand.cs" t="Include" />
         </e>
         <e p="DependencyInjection.cs" t="Include" />
         <e p="Dto" t="Include">
+          <e p="BarDto.cs" t="Include" />
           <e p="FooDto.cs" t="Include" />
         </e>
         <e p="IApplicationDbContext.cs" t="Include" />
+        <e p="Mappers" t="Include">
+          <e p="BarProfile.cs" t="Include" />
+        </e>
         <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
