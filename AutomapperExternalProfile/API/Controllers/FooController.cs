@@ -1,26 +1,24 @@
 ﻿namespace API.Controllers
 {
-    using System.Threading.Tasks;
     using Application.Commands;
     using Application.Dto;
-    using MediatR;
     using Microsoft.AspNetCore.Mvc;
 
     [ApiController]
     [Route("[controller]")]
     public class FooController : ControllerBase
     {
-        private readonly IMediator _mediator;
+        private readonly GetFooCommand _fooCommand;
 
-        public FooController(IMediator mediator)
+        public FooController(GetFooCommand fooCommand)
         {
-            _mediator = mediator;
+            _fooCommand = fooCommand;
         }
 
         [HttpGet]
-        public async Task<FooDto> Get()
+        public FooDto Get()
         {
-            return await _mediator.Send(new GetFooCommand());
+            return _fooCommand.Get();
         }
     }
 }

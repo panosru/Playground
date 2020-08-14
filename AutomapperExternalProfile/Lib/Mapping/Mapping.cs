@@ -10,7 +10,11 @@ namespace Lib.Mapping
             this IServiceCollection services,
             Assembly assembly)
         {
-            services.AddAutoMapper(Assembly.GetExecutingAssembly(), assembly);
+            services.AddAutoMapper(
+                cfg =>
+                {
+                    cfg.AddProfile(new MappingProfile(assembly));
+                });
 
             return services;
         }

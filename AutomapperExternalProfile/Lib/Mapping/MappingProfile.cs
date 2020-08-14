@@ -5,19 +5,11 @@ namespace Lib.Mapping
     using System.Reflection;
     using AutoMapper;
 
-    public abstract class MappingProfileBase : Profile
+    public class MappingProfile : Profile
     {
-        public MappingProfileBase()
+        public MappingProfile(Assembly assembly) : base()
         {
-            ApplyMappingsFromAssembly(GetType().Assembly);
-            // ApplyMappingsFromAssembly(GetType().Assembly);
-            // ApplyMappingsFromAssembly(typeof(MappingProfileBase).Assembly);
-    
-            Console.WriteLine(Assembly.GetEntryAssembly().FullName);
-            Console.WriteLine(Assembly.GetExecutingAssembly().FullName);
-            Console.WriteLine(Assembly.GetCallingAssembly().FullName);
-            Console.WriteLine(GetType().Assembly.FullName);
-            Console.WriteLine(typeof(MappingProfileBase).Assembly.FullName);
+            ApplyMappingsFromAssembly(assembly);
         }
     
         private void ApplyMappingsFromAssembly(Assembly assembly)

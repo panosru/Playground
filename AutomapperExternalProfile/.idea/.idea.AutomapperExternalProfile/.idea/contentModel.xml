@@ -36,9 +36,6 @@
           <e p="FooDto.cs" t="Include" />
         </e>
         <e p="IApplicationDbContext.cs" t="Include" />
-        <e p="Mapping" t="Include">
-          <e p="MappingProfile.cs" t="Include" />
-        </e>
         <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -83,7 +80,7 @@
           <e p="IMapFrom.cs" t="Include" />
           <e p="IMapTo.cs" t="Include" />
           <e p="Mapping.cs" t="Include" />
-          <e p="MappingProfileBase.cs" t="Include" />
+          <e p="MappingProfile.cs" t="Include" />
         </e>
         <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
