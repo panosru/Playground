@@ -8,6 +8,10 @@
       <ProjectReference Include="..\Lib\Lib.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.0.1" />
+    </ItemGroup>
+
     
 
 </Project>

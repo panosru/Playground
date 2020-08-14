@@ -1,8 +1,10 @@
 namespace Lib.Mapping
 {
+    using AutoMapper;
+
     public interface IMapFrom<T>
     {
-        void Mapping(MappingProfileBase profile)
+        void Mapping(Profile profile)
         {
             profile.CreateMap(typeof(T), GetType());
         }

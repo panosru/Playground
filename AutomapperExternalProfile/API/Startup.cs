@@ -1,8 +1,7 @@
 namespace API
 {
-    using AutoMapper;
+    using Application;
     using Infrastructure;
-    using Lib.Mapping;
     using Microsoft.AspNetCore.Builder;
     using Microsoft.AspNetCore.Hosting;
     using Microsoft.Extensions.Configuration;
@@ -21,9 +20,9 @@ namespace API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddAutoMapper(typeof(MappingProfileBase));
-
-            services.AddDbContext<ApplicationDbContext>();
+            services
+                .AddApplication()
+                .AddInfrastructure(Configuration);
 
             services.AddOpenApiDocument(
                 config =>

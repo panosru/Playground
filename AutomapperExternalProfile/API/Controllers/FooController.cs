@@ -1,29 +1,23 @@
 ﻿namespace API.Controllers
 {
-    using Application.Dto;
-    using AutoMapper;
-    using AutoMapper.QueryableExtensions;
-    using Infrastructure;
+    using Application.Commands;
     using Microsoft.AspNetCore.Mvc;
 
     [ApiController]
     [Route("[controller]")]
     public class FooController : ControllerBase
     {
-        private readonly ApplicationDbContext _context;
+        private readonly GetFoo _controller;
 
-        private readonly IMapper _mapper;
-
-        public FooController(IMapper mapper, ApplicationDbContext context)
+        public FooController(GetFoo controller)
         {
-            _mapper = mapper;
-            _context = context;
+            _controller = controller;
         }
 
         [HttpGet]
         public object Get()
         {
-            return new {Data = _context.Foo.ProjectTo<FooDto>(_mapper.ConfigurationProvider)};
+            return new {Data = _controller.GetFooDto().Result};
         }
     }
 }
