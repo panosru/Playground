@@ -10,13 +10,17 @@ namespace Application.Dto
 
         public string Category { get; set; }
 
-        public int Views { get; set; }
+        public int ReadTimes { get; set; }
 
         public string Notes { get; set; }
 
         public void Mapping(Profile profile)
         {
-            profile.CreateMap<FooEntity, FooDto>();
+            profile.CreateMap<FooEntity, FooDto>()
+                .ForMember(
+                    dest => dest.ReadTimes,
+                    opt =>
+                        opt.MapFrom(src => src.Views));
         }
     }
 }

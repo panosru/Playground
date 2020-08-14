@@ -20,20 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dce69fcd-fbe3-40a5-95b6-0123418a58ab" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AutomapperExternalProfile/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AutomapperExternalProfile/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AutomapperExternalProfile/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AutomapperExternalProfile/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/API/API.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Controllers/FooController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Controllers/FooController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Application.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Commands/GetFoo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/DependencyInjection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/DependencyInjection.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Dto/FooDto.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/MappingProfile.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Core.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Core.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Infrastructure.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/Mapping/Mapping.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/Mapping/Mapping.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/Mapping/MappingProfileBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/Mapping/MappingProfileBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Dto/FooDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Dto/FooDto.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MassTransit_MediatR/.idea/.idea.MassTransit_MediatR/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MassTransit_MediatR/.idea/.idea.MassTransit_MediatR/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MassTransit_MediatR/.idea/.idea.MassTransit_MediatR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MassTransit_MediatR/.idea/.idea.MassTransit_MediatR/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MassTransit_MediatR/MassTransitApi/Commands/CreateUser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MassTransit_MediatR/MassTransitApi/Commands/CreateUser.cs" afterDir="false" />
@@ -124,7 +111,6 @@
         <option value="$PROJECT_DIR$/Core/Core.csproj" />
         <option value="$PROJECT_DIR$/API/Dto/FooDto.cs" />
         <option value="$PROJECT_DIR$/API/Mapping/MappingProfile.cs" />
-        <option value="$PROJECT_DIR$/Application/Dto/FooDto.cs" />
         <option value="$PROJECT_DIR$/Application/IApplicationDbContext.cs" />
         <option value="$PROJECT_DIR$/API/ApplicationDbContext.cs" />
         <option value="$PROJECT_DIR$/Application/Commands/GetFoo.cs" />
@@ -138,6 +124,7 @@
         <option value="$PROJECT_DIR$/Application/DependencyInjection.cs" />
         <option value="$PROJECT_DIR$/Lib/Mapping/MappingProfileBase.cs" />
         <option value="$PROJECT_DIR$/Application/Mapping/MappingProfile.cs" />
+        <option value="$PROJECT_DIR$/Application/Dto/FooDto.cs" />
       </list>
     </option>
   </component>
@@ -226,7 +213,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597344998925</updated>
-      <workItem from="1597345006786" duration="19824000" />
+      <workItem from="1597345006786" duration="20380000" />
     </task>
     <servers />
   </component>
