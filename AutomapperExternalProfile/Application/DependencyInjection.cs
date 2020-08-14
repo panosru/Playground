@@ -4,6 +4,7 @@ namespace Application
     using System.Reflection;
     using Commands;
     using Lib.Mapping;
+    using Mappers;
     using Microsoft.Extensions.DependencyInjection;
 
     public static class DependencyInjection
@@ -12,7 +13,7 @@ namespace Application
         {
             services.AddMappings(
                 Assembly.GetExecutingAssembly(), 
-                Assembly.GetExecutingAssembly());
+                typeof(BarProfile).Assembly);
 
             services.AddScoped<GetFooCommand>();
             services.AddScoped<GetBarCommand>();
