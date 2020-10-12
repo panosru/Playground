@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValueObjectsCS9", "ValueObjectsCS9\ValueObjectsCS9.csproj", "{30B8AA80-49E3-4C4B-A98D-B4F05B301FC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValueObjectsCS8", "ValueObjectsCS8\ValueObjectsCS8.csproj", "{22565EE4-A272-4D4D-8241-3BD48111DA02}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30B8AA80-49E3-4C4B-A98D-B4F05B301FC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30B8AA80-49E3-4C4B-A98D-B4F05B301FC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30B8AA80-49E3-4C4B-A98D-B4F05B301FC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30B8AA80-49E3-4C4B-A98D-B4F05B301FC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22565EE4-A272-4D4D-8241-3BD48111DA02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22565EE4-A272-4D4D-8241-3BD48111DA02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22565EE4-A272-4D4D-8241-3BD48111DA02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22565EE4-A272-4D4D-8241-3BD48111DA02}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
