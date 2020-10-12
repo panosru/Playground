@@ -2,9 +2,9 @@
 
 namespace ValueObjectsCS9
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             var user1 = new FullNameVo
             {
@@ -20,8 +20,9 @@ namespace ValueObjectsCS9
 
             var user3 = user1 with { Name = "Jane" };
 
-            Console.WriteLine(user1 == user2);
-            Console.WriteLine(user1 == user3);
+            Console.WriteLine(user1 == user2); // True
+            Console.WriteLine(user1 == user3); // False
+            Console.WriteLine(ValueObject.EqualityComparer.Equals(user1, user3)); // True
         }
     }
 }
