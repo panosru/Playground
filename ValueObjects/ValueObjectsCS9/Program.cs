@@ -18,11 +18,7 @@ namespace ValueObjectsCS9
                 Surname = "Doe"
             };
 
-            var user3 = new FullNameVo
-            {
-                Name    = "Jane",
-                Surname = "Doe"
-            };
+            var user3 = user1 with { Name = "Jane" };
 
             Console.WriteLine(user1 == user2);
             Console.WriteLine(user1 == user3);
