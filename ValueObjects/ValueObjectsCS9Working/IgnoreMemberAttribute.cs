@@ -1,4 +1,4 @@
-namespace ValueObjectsCS9Failing
+namespace ValueObjectsCS9Working
 {
     using System;
 

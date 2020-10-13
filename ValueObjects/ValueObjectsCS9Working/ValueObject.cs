@@ -1,18 +1,16 @@
-namespace ValueObjectsCS9Failing
+namespace ValueObjectsCS9Working
 {
     using System.Collections.Generic;
     using System.Linq;
     using System.Reflection;
 
-    // Learn more: https://docs.microsoft.com/en-us/dotnet/standard/microservices-architecture/microservice-ddd-cqrs-patterns/implement-value-objects
-    // source: https://github.com/jhewlett/ValueObject
-    public abstract record ValueObject : IValueObject<ValueObject>
+    public abstract record ValueObject : IValueObject
     {
         private List<FieldInfo>? _fields;
 
         private List<PropertyInfo>? _properties;
 
-        #region IValueObject<ValueObject> Members
+        #region IValueObject Members
 
         public override int GetHashCode()
         {
@@ -32,20 +30,12 @@ namespace ValueObjectsCS9Failing
             return seed * 23 + currentHash;
         }
 
-        public virtual bool Equals(ValueObject? other) => Equals(other as object);
+        public virtual bool Equals(ValueObject? other) =>
+            EqualityCheck(other);
 
         #endregion
 
-        public static bool operator ==(ValueObject? left, ValueObject? right)
-        {
-            if (left is null ^ right is null) return false;
-
-            return left?.Equals(right) != false;
-        }
-
-        public static bool operator !=(ValueObject? left, ValueObject? right) => !(left == right);
-
-        public override bool Equals(object? obj)
+        private bool EqualityCheck(object? obj)
         {
             if (obj           == null
              || obj.GetType() != GetType()) return false;

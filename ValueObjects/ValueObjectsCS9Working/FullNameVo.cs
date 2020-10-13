@@ -1,6 +1,6 @@
-namespace ValueObjectsCS9Failing
+namespace ValueObjectsCS9Working
 {
-    public sealed record FullNameVo
+    public sealed record FullNameVo : ValueObject
     {
         [IgnoreMember]
         public string Name;
@@ -9,5 +9,8 @@ namespace ValueObjectsCS9Failing
 
         [IgnoreMember]
         public string FullName => $"{Name} {Surname}";
+
+        public bool Equals(FullNameVo? other) =>
+            base.Equals(other);
     }
 }
