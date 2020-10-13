@@ -3,9 +3,9 @@ namespace ValueObjectsCS9Working
     public sealed record FullNameVo : ValueObject
     {
         [IgnoreMember]
-        public string Name;
+        public string? Name;
 
-        public string Surname;
+        public string? Surname;
 
         [IgnoreMember]
         public string FullName => $"{Name} {Surname}";
