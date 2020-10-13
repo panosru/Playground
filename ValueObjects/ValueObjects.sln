@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValueObjectsCS9", "ValueObj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValueObjectsCS8", "ValueObjectsCS8\ValueObjectsCS8.csproj", "{22565EE4-A272-4D4D-8241-3BD48111DA02}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValueObjectsCS9Failing", "ValueObjectsCS9Failing\ValueObjectsCS9Failing.csproj", "{3C7D9611-7C2F-4CA0-8224-6341702E004D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{22565EE4-A272-4D4D-8241-3BD48111DA02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22565EE4-A272-4D4D-8241-3BD48111DA02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22565EE4-A272-4D4D-8241-3BD48111DA02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C7D9611-7C2F-4CA0-8224-6341702E004D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C7D9611-7C2F-4CA0-8224-6341702E004D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C7D9611-7C2F-4CA0-8224-6341702E004D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C7D9611-7C2F-4CA0-8224-6341702E004D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
