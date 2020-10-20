@@ -1,0 +1,76 @@
+build_settings:
+  ignore:
+    - ./vendor
+    - ./tests
+
+setup:
+  composer:
+    action: install
+
+test:
+
+  codeception:
+    directory: ./
+    config: codeception.yml
+
+  security_checker:
+    allowed_warnings: -1
+
+  php_parallel_lint:
+    directory: ./src
+    ignore:
+      - ./vendor
+      - ./test
+
+  pdepend:
+    directory: ./src
+
+  phan:
+    directory: ./src
+    allowed_warnings: -1
+
+  php_code_sniffer:
+    directory: ./src
+    standard: PSR2
+    allowed_errors: -1
+    allowed_warnings: -1
+
+  php_cpd:
+    directory: ./src
+
+  php_docblock_checker:
+    directory: ./src
+    allowed_warnings: -1
+
+  php_loc:
+    directory: ./src
+
+  php_mess_detector:
+    directory: ./src
+    ignore:
+      - ./vendor
+      - ./tests
+    allowed_warnings: -1
+    rules:
+      - cleancode
+      - controversial
+      - codesize
+      - design
+      - naming
+      - unusedcode
+
+  technical_debt:
+    directory: ./src
+    ignore:
+      - ./vendor
+      - ./tests
+
+
+failure:
+  email:
+    committer: true
+    default_mailto_address: panosru@me.com
+
+complete:
+  email:
+    default_mailto_address: panosru@me.com

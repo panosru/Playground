@@ -1,0 +1,21 @@
+{
+    "name": "panosru/php-censor-debug",
+    "description": "Made for debugging purposes",
+    "type": "demo-debug",
+    "require": {
+      "danielstjules/stringy": "^3.1"
+    },
+    "require-dev": {
+      "codeception/codeception": "^2.5"
+    },
+    "autoload": {
+      "psr-4": {
+        "Demo\\Debug\\": "src/"
+      }
+    },
+    "autoload-dev": {
+      "psr-4": {
+        "TestDemoDebug\\": "tests/unit/"
+      }
+    }
+}
