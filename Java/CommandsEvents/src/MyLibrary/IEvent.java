@@ -1,4 +1,4 @@
 package MyLibrary;
 
-public interface IEvent<TPayload extends IPayload> {
-}
+public interface IEvent<TPayload extends IPayload>
+{ }

@@ -4,10 +4,11 @@ import MyApp.Events.Fooed;
 import MyApp.Events.FooedHandler;
 import MyLibrary.Command.Handler;
 
-public final class FooHandler extends Handler<Foo, String> {
-
+public final class FooHandler extends Handler<Foo, String>
+{
     @Override
-    public String Handle(Foo command) {
+    public String Handle(Foo command)
+    {
         // Some logic
         System.out.println("Foo command handled");
 

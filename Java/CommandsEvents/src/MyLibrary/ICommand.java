@@ -1,4 +1,4 @@
 package MyLibrary;
 
-public interface ICommand<TResponse> {
-}
+public interface ICommand<TResponse>
+{ }
