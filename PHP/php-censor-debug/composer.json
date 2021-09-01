@@ -6,7 +6,7 @@
       "danielstjules/stringy": "^3.1"
     },
     "require-dev": {
-      "codeception/codeception": "^2.5"
+      "codeception/codeception": "^3.1"
     },
     "autoload": {
       "psr-4": {
